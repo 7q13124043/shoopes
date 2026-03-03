@@ -1,4 +1,4 @@
-export default function Sidebar() {
+export default function Sidebars() {
   return (
     <aside className="w-48 text-sm text-gray-700">
       {/* Danh mục */}

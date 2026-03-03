@@ -1,4 +1,4 @@
-import Sidebar from '../components/Sidebar';
+import Sidebars from '../components/Sidebars';
 import { products } from '../data/products';
 import { Link } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ export default function Home({ searchQuery }) {
 
   return (
     <div className="flex-1 flex w-full max-w-[1200px] mx-auto px-4 py-6 gap-6">
-      <Sidebar />
+      <Sidebars />
       
       <main className="flex-1">
         {/* Kiểm tra xem danh sách đã lọc có sản phẩm nào không */}
